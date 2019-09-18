@@ -1,0 +1,8 @@
+<resources>
+	<string name="app_name">jaggrat-test</string>
+	<string name="bad_data">Data is not correct</string>
+	<string name="sort_cards">Sort Boarding cards</string>
+	<string name="sort_cards_label">Sorted Boarding cards: </string>
+	<string name="mix_cards">Mix Boarding cards</string>
+	<string name="mix_cards_label">Mixed Boarding cards:</string>
+</resources>

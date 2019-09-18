@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+	
+	<Button android:layout_width="match_parent"
+	        android:id="@+id/btn_sort"
+	        android:text="@string/sort_cards"
+	        android:layout_height="wrap_content"/>
+	
+	<TextView android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:textColor="@color/colorAccent"
+	          android:textSize="18sp"
+	          android:text="@string/mix_cards_label"
+	          android:id="@+id/tv_sort_lable"/>
+	<androidx.recyclerview.widget.RecyclerView
+			android:id="@+id/recycler_view"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			tools:context=".ui.MainActivity"/>
+
+</LinearLayout>
